@@ -30,3 +30,13 @@ nav{
 .herol{
     width: 400px;
 }
+.trabajos{
+    background-color: #660066;
+}
+footer{
+    background-color: #660066;
+}
+footer p{
+    font-size: 40px;
+    font-family: "Oswald";
+    margin-top: -5px;
