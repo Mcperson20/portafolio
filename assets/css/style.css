@@ -1,3 +1,32 @@
 nav{
     background-color: #660066;
 }
+.navbar-brand{
+    font-size: 40px;
+    font-family: "Oswald";
+    font-weight: bold;
+}
+#hero{
+    background: url("https://wallpapercave.com/wp/wp1933849.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#hero div{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+}
+#hero h1{
+    font-family: "Oswald";
+    font-size: 72px;
+}
+#hero h1:first-child{
+    font-weight: 200;
+}
+#hero h1:last-child{
+    font-weight: bold;
+}
+.herol{
+    width: 400px;
+}
