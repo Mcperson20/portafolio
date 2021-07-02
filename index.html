@@ -14,9 +14,9 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <class class="container">
-            <a class="navbar-brand" href="/">A</a>
+            <a class="navbar-brand" href="#">A</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,16 +24,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Sobre mi <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#sobre">Sobre mi <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Experiencia <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#experiencia">Experiencia <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Trabajos <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#trabajos">Trabajos <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Contacto <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#contacto">Contacto <span class="sr-only">(current)</span></a>
                 </li>              
           </ul>
         </div>
@@ -48,61 +48,61 @@
         </div>
     </header>
 
-    <section class="sobremi">
+    <section class="sobremi d-none d-sm-block" id="sobre">
         <div class="container my-5">
             <h3 class="bajada text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus.</h3>
-            <hr id="hrbajada">
+            <hr class="hrbajada bg-dark">
         </div>
-        <div class="container">
-            <div class="row text-center">
-              <div class="col-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.
-              </div>
-              <div class="col-sm">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.
-              </div>
+        <div class="container parrafos">
+            <div class="row">
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div>
+                <div class="col-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div>
             </div>
           </div>
     </section>
 
-    <section id="experiencia">
+    <section id="experiencia" class="py-5">
         <div class="container my-5">
             <h2 class="titulo-experiencia text-center text-uppercase">Mi Experiencia</h2>
-            <hr id="hrbajada">
+            <hr class="hrbajada">
         </div>
         <div class="container">
             <div class="row text-center">
                 <div class="col-sm">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" alt="" class="imagen-experiencia">
-                    <h4>Stormtrooper</h4>
-                    <h5>1980 - 2014</h5>
+                    <i class="fab fa-wordpress fa-10x mb-2" data-toggle="tooltip" data-placement="top" title="Tooltip arriba"></i>                    
+                    <h4>Desarrollador Wordpress</h4>
+                    <h5>2014 - 2015</h5>
                 </div>
                 <div class="col-sm">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" alt="" class="imagen-experiencia">
-                    <h4>Stormtrooper</h4>
-                    <h5>1980 - 2014</h5>
+                    <i class="fab fa-wordpress fa-10x mb-2 data-toggle=" data-toggle="popover" data-placement="bottom" title="Título del Popover" data-content="El mejor contenido posible"></i>                    
+                    <h4>Desarrollador Wordpress</h4>
+                    <h5>2015 - Actualidad</h5>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="trabajos">
-        <div class="container pt-5">
+    <section class="trabajos" id="trabajos">
+        <div class="container py-5">
             <h2 class="titulo-experiencia text-center text-uppercase text-white">Mis últimos trabajos</h2>
-            <hr id="hrbajada">
+            <hr class="hrbajada bg-white">
         </div>
         <div class="container py-2">
             <div class="row text-center">
-                <div class="col-sm">
+                <div class="col-sm mb-2">
                     <div class="card">
-                        <img src="assets/img/meet_coffee.png" class="card-img-top" alt="...">
+                        <img src="assets/img/meet_coffee.png" class="card-img-top" data-toggle="modal" data-target="#exampleModal">
                         <div class="card-body">
                           <h5 class="card-title">Meet&Coffee</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                       </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm mb-2">
                     <div class="card">
                         <img src="assets/img/iguana_page.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -111,7 +111,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm mb-2">
                     <div class="card">
                         <img src="assets/img/suricata.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -122,9 +122,9 @@
                 </div>
             </div>
         </div>
-        <div class="container py-3">
+        <div class="container pb-5">
             <div class="row text-center">
-                <div class="col-sm">
+                <div class="col-sm mb-2">
                     <div class="card">
                         <img src="assets/img/cuppon.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -133,7 +133,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm mb-2">
                     <div class="card">
                         <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -142,7 +142,7 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-sm">
+                <div class="col-sm mb-2">
                     <div class="card">
                         <img src="assets/img/dmark.png" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -155,8 +155,52 @@
         </div>
     </section>
 
+    <section class="contacto my-5" id="contacto">
+        <div class="container">
+            <h2 class="titulo-experiencia text-center text-uppercase">Contacto</h2>
+            <hr class="hrbajada">
+            <div class="typeform-widget mb-3" data-url="https://form.typeform.com/to/JMFIMYEH?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container py-5">
+            <div class="row text-center">
+                <div class="col-sm align-top">
+                    <p class="nombre-footer text-uppercase text-white">abraham</p>
+                </div>
+                <div class="col-sm text-white">
+                    <a href="https://github.com/Mcperson20" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/abraham-vega-275bb110/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <!-- <i class="fab fa-twitter-square fa-3x"></i>
+                    <i class="fab fa-facebook-square fa-3x"></i> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Título del Modal</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+            Contenido del Modal
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Guardar</button>
+            </div>
+        </div>
+        </div>
+    </div>
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>

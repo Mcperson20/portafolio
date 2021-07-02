@@ -1,3 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+:target:before {
+    content: "";
+    display: block;
+    height: 90px;
+    margin: -90px 0 0;
+}
+h2{
+    font-family: "Oswald";
+    font-weight: bold;
+    font-size: 52px;
+}
 nav{
     background-color: #660066;
 }
@@ -30,6 +44,27 @@ nav{
 .herol{
     width: 400px;
 }
+.sobremi{
+    color: #373A3C;
+}
+.sobremi h3{
+    font-family: "Open Sans";
+    line-height: 2;
+    font-weight: 600;
+}
+.sobremi .parrafos{
+    line-height: 3;
+}
+.hrbajada{
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    margin: 30px auto;
+}
+#experiencia i{
+    width: 150px;
+    color: #660066;
+}
 .trabajos{
     background-color: #660066;
 }
@@ -40,3 +75,7 @@ footer p{
     font-size: 40px;
     font-family: "Oswald";
     margin-top: -5px;
+}
+footer i{
+    color:white;
+}
